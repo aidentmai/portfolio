@@ -101,6 +101,10 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    border-radius: 2rem;
+    border: 1px solid #000;
+    text-decoration: underline;;
+    
 }
 
 .menu-links a {
@@ -111,6 +115,10 @@ a:hover {
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+}
+
+.menu-links.closed {
+    border: none;
 }
 
 .menu-links li {
@@ -383,7 +391,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
 }
 
 .contact-info-upper-container {
